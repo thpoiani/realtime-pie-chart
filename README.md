@@ -16,4 +16,4 @@ O projeto disponível para ser executado, revisado, distribuído e aperfeiçoado
 [node.js]: http://nodejs.org/
 [socket.io]: http://socket.io/
 [chartist-js]: http://gionkunz.github.io/chartist-js/
-[licença MIT]: LICENSE.txt
+[licença MIT]: LICENSE
