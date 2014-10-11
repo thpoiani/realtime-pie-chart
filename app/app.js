@@ -10,13 +10,16 @@ app.set('views', __dirname + '/views/');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
-  res.sendFile(app.get('views') + 'index.html');
+  res.sendFile(app.get('views') + 'client.html');
+});
+
+app.get('/show', function (req, res) {
+  res.sendFile(app.get('views') + 'server.html');
 });
 
 io.on('connection', function (socket) {
-  socket.emit('news', { hello: 'world' });
-  socket.on('my other event', function (data) {
-    console.log(data);
+  socket.on('send language', function (data) {
+    io.emit('show language', data);
   });
 });
 
