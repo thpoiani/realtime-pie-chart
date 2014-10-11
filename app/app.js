@@ -10,7 +10,7 @@ app.set('views', __dirname + '/views/');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
-  res.sendfile(app.get('views') + 'index.html');
+  res.sendFile(app.get('views') + 'index.html');
 });
 
 io.on('connection', function (socket) {
