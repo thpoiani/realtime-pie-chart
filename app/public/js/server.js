@@ -10,7 +10,11 @@
     series: []
   };
 
-  chart = Chartist.Pie('.ct-chart', data);
+  chart = Chartist.Pie('.ct-chart', data, {
+    labelInterpolationFnc: function(value) {
+      return value + ' (' + data.series[data.labels.indexOf(value)] + ')';
+    }
+  });
 
   socket.on('show language', function (response) {
     if (data.labels.indexOf(response.language) === -1) {

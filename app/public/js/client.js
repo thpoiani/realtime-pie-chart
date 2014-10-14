@@ -17,5 +17,6 @@
     response[select.name] = select.value;
 
     socket.emit('send language', response);
+    window.alert('Obrigado pela resposta!');
   }
 })(window, document, window.io);

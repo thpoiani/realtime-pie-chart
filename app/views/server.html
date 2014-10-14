@@ -8,11 +8,20 @@
         <meta name="description" content="Gráfico de Pizza recalculado em tempo real a cada inserção de dados.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/chartist.min.css">
+        <link rel="stylesheet" href="/css/realtime-pie-chart.css">
     </head>
-    <body>
-        <div class="ct-chart ct-square" style="width: 320px; margin: 0 auto;"></div>
+    <body class="jumbotron">
+        <h1>Realtime Pie Chart <small>Server</small></h1>
+
+        <div class="row">
+            <div class="col-md-4 chart">
+                <div class="ct-chart ct-square">
+                    <span class="glyphicon glyphicon-refresh"></span>
+                </div>
+            </div>
+        </div>
 
         <script>
             window.server = '<%= server %>';
