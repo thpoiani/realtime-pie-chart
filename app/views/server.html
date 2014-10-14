@@ -12,9 +12,11 @@
         <link rel="stylesheet" href="/css/chartist.min.css">
     </head>
     <body>
-        <p>Hello world!</p>
-
         <div class="ct-chart ct-square" style="width: 320px; margin: 0 auto;"></div>
+
+        <script>
+            window.server = '<%= server %>';
+        </script>
 
         <script src="/socket.io/socket.io.js"></script>
         <script src="/js/chartist.min.js"></script>
