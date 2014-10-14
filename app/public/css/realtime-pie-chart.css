@@ -68,3 +68,71 @@ select.input-lg {
     from { transform:rotate(0deg); }
     to { transform:rotate(360deg); }
 }
+
+.ct-chart .ct-series.ct-series-a .ct-slice:not(.ct-donut) {
+  fill: #FCFBA5;
+}
+
+.ct-chart .ct-series.ct-series-b .ct-slice:not(.ct-donut) {
+  fill: #E5F5C4;
+}
+
+.ct-chart .ct-series.ct-series-c .ct-slice:not(.ct-donut) {
+  fill: #9472A8;
+}
+
+.ct-chart .ct-series.ct-series-d .ct-slice:not(.ct-donut) {
+  fill: #B2DEB5;
+}
+
+.ct-chart .ct-series.ct-series-e .ct-slice:not(.ct-donut) {
+  fill: #649698;
+}
+
+.ct-chart .ct-series.ct-series-f .ct-slice:not(.ct-donut) {
+  fill: #BEA6CC;
+}
+
+.ct-chart .ct-series.ct-series-g .ct-slice:not(.ct-donut) {
+  fill: #AA3C39;
+}
+
+.ct-chart .ct-series.ct-series-h .ct-slice:not(.ct-donut) {
+  fill: #C883AB;
+}
+
+.ct-chart .ct-series.ct-series-i .ct-slice:not(.ct-donut) {
+  fill: #AA6D39;
+}
+
+.ct-chart .ct-series.ct-series-j .ct-slice:not(.ct-donut) {
+  fill: #9EC6C1;
+}
+
+.ct-chart .ct-series.ct-series-k .ct-slice:not(.ct-donut) {
+  fill: #FCC9A5;
+}
+
+.ct-chart .ct-series.ct-series-l .ct-slice:not(.ct-donut) {
+  fill: #FCF7A5;
+}
+
+.ct-chart .ct-series.ct-series-m .ct-slice:not(.ct-donut) {
+  fill: #9A84B1;
+}
+
+.ct-chart .ct-series.ct-series-n .ct-slice:not(.ct-donut) {
+  fill: #EB6334;
+}
+
+.ct-chart .ct-series.ct-series-o .ct-slice:not(.ct-donut) {
+  fill: #EBD234;
+}
+
+.ct-chart .ct-series.ct-series-p .ct-slice:not(.ct-donut) {
+  fill: #00D56F;
+}
+
+.ct-chart .ct-series.ct-series-r .ct-slice:not(.ct-donut) {
+  fill: #4E0DD3;
+}
